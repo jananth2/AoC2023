@@ -1,0 +1,6 @@
+Part 1: 175622908
+Part 2: 5200543
+
+real	0m0.034s
+user	0m0.014s
+sys	0m0.011s
