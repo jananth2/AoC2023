@@ -1,31 +1,32 @@
 use strict;
 use warnings;
+use Smart::Comments;
 
 my $test1_answer = 0;
 my $test2_answer = 0;
 
 sub part1 ($) {
-  open(FH, '<', shift) or die $!;
+    open(FH, '<', shift) or die $!;
 
-  my $sum = 0;
-  while(<FH>) {
+    my $sum = 0;
+    while (<FH>) {
 
-  }
+    }
   
-  close(FH);
-  return $sum;
+    close(FH);
+    return $sum;
 }
 
 sub part2 ($) {
-  open(FH, '<', shift) or die $!;
+    open(FH, '<', shift) or die $!;
 
-  my $sum = 0;
-  while(<FH>) {
+    my $sum = 0;
+    while (<FH>) {
 
-  }
+    }
 
-  close(FH);
-  return $sum;
+    close(FH);
+    return $sum;
 }
 
 die unless part1("input_test1.txt") == $test1_answer;
